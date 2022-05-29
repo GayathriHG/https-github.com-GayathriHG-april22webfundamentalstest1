@@ -1,0 +1,107 @@
+
+// considering total of 7 numbers for 7 days
+let number='7';
+switch (number){
+    case '1';
+    console.log('sunday');
+    break;
+    case'2';
+    console.log('monday');
+    break;
+    case'3';
+    console.log('tuesday');
+    break;
+    case'4';
+    console.log('wednesday');
+    break;
+    case'5';
+    console.log('thursday');
+    break;
+    case'6';
+    console.log('friday');
+    break;
+    case'7';
+    console.log('saturday');
+    break;
+
+}
+
+
+
+
+let number=20;
+if(number%2==0)
+// if the number gets divided by 2 and the value is even number or the number gets divided without any decimals then the output id even number
+{
+    console.log('number is even');
+}
+else{console.log('number is odd');
+}
+
+    // initialization-assigining values to the variable
+    // declaration-providing space in the memory for the variable
+     
+    let a=10;
+    let b=20;
+    if(a==b)
+    {
+        console.log('it is a square');
+    }
+    else{
+        console.log('it is a rectangle');
+    }
+
+
+    // null
+    // it is defined when the value for the variable is not assigned on purpose 
+    // eg- 
+    variable=null;
+
+    // undefined
+    // it is shown when the resources are not enough in the code to generate a output or when a value is unknown
+    // eg-
+    let a=1;
+    if(a===0)
+    {console.log('false')
+}
+if(b===0)
+{
+    console.log('false');
+}
+// it is identifed as undefined because b has not been declared before
+
+
+// notdefined-
+// it is displayed when any variable is not declared at the right time then not displayed is shown 
+// eg-
+let a=1;
+let b=2;
+console.log('a')
+console.log('b')
+console.log('c')
+let c=3;
+// here c is not consoled because the value and the variable was not declared before consoling
+
+
+
+// variable-
+// it can be declared globally and can be put everywhere in the program
+// it is declared inside the function and can be assessed inside only
+// 2 variables can be declared with the same name
+// eg-
+var a=1
+var a=2
+
+// let-
+// the variable cannot be re declared
+// can be declared with same name but with different numbers
+// if it is used before declaration it doesnot initialize and gives an error
+let a=1
+console.log('a')
+let a-4
+console.log('a')
+
+
+// constant-
+// the variable remains constant and cannot be changed and it has to be initialized
+// it can be updated once it is declared
